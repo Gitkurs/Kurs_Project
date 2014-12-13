@@ -7,6 +7,6 @@
 
 <body>
 
-<input name="qwe" type="button" value="<? echo "Hello World!";?>">
+<input name="qwe" type="button" value="<? echo "Hello!";?>">
 </body>
 </html>
