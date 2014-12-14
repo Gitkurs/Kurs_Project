@@ -6,7 +6,9 @@
 </head>
 
 <body>
+<? 
+echo "Site";
+?>
 
-<input name="qwe" type="button" value="<? echo "Hello!";?>">
 </body>
 </html>
