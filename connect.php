@@ -8,8 +8,6 @@
 <body>
 
 <?
-echo "connect";
-
 $DBASE = mysql_connect("localhost","AntonSchwarz","1372") or die("Could not connect: " .mesql_error());
 mysql_select_db("antonschwarz") or die("Could not select database");
 mysql_query("SET NAMES cp1251");

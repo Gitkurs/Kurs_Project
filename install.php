@@ -20,8 +20,6 @@ CREATE TABLE blog( id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
 				) DEFAULT CHARSET=cp1251;"
 			);
 	echo mysql_error();
-		
-echo "install";	
 ?>
 
 <br> Ready! <br/>   

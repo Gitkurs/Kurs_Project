@@ -6,7 +6,7 @@ if($_COOKIE["pass"]!=="1372"){
 			die("Restart list");
 			}	
 ?>
-<html><head><title>Админка</title></head><body>
+<html><head><title>ADMIN</title></head><body>
 <form method="post">
 <input type="password" name="pass" value="">
 <input type="submit" name="submit" value="Password">
