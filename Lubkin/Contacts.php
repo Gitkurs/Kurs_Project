@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>Документ без названия</title>
-<link href="Зоринцсс.css" rel="stylesheet" type="text/css">
+<link href="CSS.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <label for="textfield">
-  <div align="right">Login:
+  <div align="right">Логин:
     <input type="text" name="textfield" id="textfield">
-    Password:
+    Пароль:
     <input type="password" name="password" id="password">
     <input type="button" name="button" id="button" value="Log in">
     <br>
@@ -26,19 +26,21 @@
 <table width="100%" border="0">
   <tbody>
     <tr>
-      <th width="8%" scope="col"><img src="D-roll.jpg" width="111" height="93" alt=""/></th>
+      <th width="8%" scope="col"><a href="index.html"><img src="images/D-roll.jpg" width="111" height="93" alt=""/></a></th>
       <th width="23%" scope="col"><h2><a href="index.html">Главная</a></h2></th>
       <th width="23%" scope="col"><h2><a href="About.html">О компании</a></h2></th>
       <th width="23%" scope="col"><h2><a href="Actions.html">Акции</a></h2></th>
-      <th width="23%" scope="col"><h2><a href="Contacts.html">Контакты</a></h2></th>
+      <th width="23%" scope="col"><h2><a href="Contacts.php">Контакты</a></h2></th>
     </tr>
     <tr>
       <td valign="top" ><h3><a href="#">Ноутбуки и ПК</a></h3>        <h3><a href="#">Комплектующие</a></h3>        <h3><a href="#">Периферия</a></h3></td>
-      <td colspan="4"><p class="news">Если вам настолько не понравился наш сайт, что вы хотите найти на этой странице наши контакты, чтобы набить нам лицо, то знайте, мы всегда на шаг впереди! Мы предусмотрели этот вариант и специально не оставили для вас ничего, что могло бы вывести на нас.</p>
-        <p class="news">Телефон: 8-987-654-32-10</p>
-        <p class="news">Адрес электронной почты: 123456@pnh.loh</p>
-        <p class="news">Сайт создан при поддержке Adobe Systems Software Ireland Ltd (жаль, что они об этом не знают)</p>
-        <p class="news">&nbsp;</p>
+      <td colspan="4">
+      <?php
+      include "../anton/connect.php";
+	  $query = mysql_query("SELECT text FROM dbtext WHERE id='1'");
+	  $data = mysql_fetch_array($query);
+	  echo $data['text'];
+      ?>
       </td>
     </tr>
   </tbody>

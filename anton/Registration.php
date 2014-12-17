@@ -11,7 +11,7 @@
 <table width="100%" border="0">
   <tbody>
     <tr>
-      <th width="8%" scope="col"><img src="D-roll.jpg" width="111" height="93" alt=""/></th>
+      <th width="8%" scope="col"><img src="../D-roll.jpg" width="111" height="93" alt=""/></th>
       <th width="23%" scope="col"><h2><a href="#">Главная</a></h2></th>
       <th width="23%" scope="col"><h2><a href="#">О компании</a></h2></th>
       <th width="23%" scope="col"><h2><a href="#">Акции</a></h2></th>
@@ -26,19 +26,23 @@
         <input type="text" name="email" id="email">
       </p>
       <p>
-        <label for="name">Name:</label>
+        <label for="phone">Телефон:</label>
+        <input type="text" name="phone" id="phone">
+      </p>
+      <p>
+        <label for="name">Имя:</label>
         <input type="text" name="name" id="name">
       </p>
       <p>
-        <label for="surname">Surname:</label>
+        <label for="surname">Фамилия:</label>
         <input type="text" name="surname" id="surname">
       </p>
         <p>
-          <label for="login">Login:</label>
+          <label for="login">Логин:</label>
           <input type="text" name="login" id="login">
         </p>
         <p>
-          <label for="password">Password:</label>
+          <label for="password">Пароль:</label>
           <input type="password" name="password" id="password">
       </p>
       <p>
