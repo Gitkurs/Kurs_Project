@@ -1,35 +1,25 @@
-<?php
-include "connect.php";
-include "createtable.php";
-?>
-
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Главная</title>
+<title>О компании</title>
 <link href="CSS.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<label for="textfield">
-  <div align="right">Логин:
-    <input type="text" name="textfield" id="textfield">
-    Пароль:
-    <input type="password" name="password" id="password">
-    <input type="button" name="button" id="button" value="Вход">
-    <br>
-  or:
-  <a href="login.php"> <input type="button" name="button2" id="button2" value="Регистрация"> </a>
-  </div>
-</label>
+<div align="right">Логин:
+  <input type="text" name="textfield" id="textfield">
+  Пароль:
+  <input type="password" name="password" id="password">
+  <input type="button" name="button" id="button" value="Вход">
+  <br>
+  or: <a href="login.php">
+  <input type="button" name="button2" id="button2" value="Регистрация">
+</a></div>
 <div align="right"></div>
-<label for="password">
-  <div align="right"></div>
-</label>
 <div align="right"></div>
-<table width="100%" border="0" height="100%">
+<label for="password"> </label>
+<table width="100%" border="0">
   <tbody>
     <tr>
       <th width="8%" scope="col"><a href="index.php"><img src="images/D-roll.jpg" width="111" height="93" alt=""/></a></th>
@@ -40,23 +30,18 @@ include "createtable.php";
     </tr>
     <tr>
       <td valign="top" ><h3><a href="#">Ноутбуки и ПК</a></h3>        <h3><a href="#">Комплектующие</a></h3>        <h3><a href="#">Периферия</a></h3></td>
-      <td colspan="4"><p class="news">&nbsp;</p>
-        <div class="news">
-          <div class="news"><img class="news" src="images/BillMogrige.jpg" width="400" height="200" alt=""/>
-          
-       <?php
+      <td colspan="4">
+      <img class="news" src="images/mhk.jpg" width="200" height="303" alt=""/>
+      <?php
       include "connect.php";
-	  $query = mysql_query("SELECT text FROM dbtext WHERE id='3'");
+	  $query = mysql_query("SELECT text FROM dbtext WHERE id='2'");
 	  $data = mysql_fetch_array($query);
 	  echo $data['text'];
       ?>
-          </div>
-          <p class="news">&nbsp;</p>
-        </div>
-        <p class="news">&nbsp;</p>
       </td>
     </tr>
   </tbody>
 </table>
+<div align="right"></div>
 </body>
 </html>
