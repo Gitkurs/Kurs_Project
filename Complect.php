@@ -1,15 +1,11 @@
-<?php
-include "connect.php";
-include "createtable.php";
-?>
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Главная</title>
+<title>Комплектующие</title>
 <link href="CSS.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 <label for="textfield">
   <div align="right">Логин:
@@ -27,7 +23,7 @@ include "createtable.php";
   <div align="right"></div>
 </label>
 <div align="right"></div>
-<table height="100%" width="100%" border="0">
+<table width="100%" border="0" height="100%">
   <tbody>
     <tr>
       <th width="10%" scope="col"><a href="index.php"><img src="images/D-roll.jpg" width="111" height="93" alt=""/></a></th>
@@ -38,23 +34,12 @@ include "createtable.php";
       <th width="22.5%" scope="col"><h2><a href="Reviews.php">Отзывы</a></h2></th>
     </tr>
     <tr>
-      <td valign="top">
-      <h3><a href="Notebooks.php">Ноутбуки и ПК</a></h3>
-      <h3><a href="Complect.php">Комплектующие</a></h3>
-      <h3><a href="OtherTech.php">Другая техника</a></h3>
-      </td>
-      <td colspan="5"><div class="news">
-          <div class="news"><img class="news" src="images/BillMogrige.jpg" width="400" height="200" alt=""/>
-          
-       <?php
-      include "connect.php";
-	  $query = mysql_query("SELECT text FROM dbtext WHERE id='3'");
-	  $data = mysql_fetch_array($query);
-	  echo $data['text'];
-      ?>
-          </div>
-          <p class="news">&nbsp;</p>
-        </div>
+      <td valign="top" ><h3><a href="Notebooks.php">Ноутбуки и ПК</a></h3>        <h3><a href="Complect.php">Комплектующие</a></h3>        <h3><a href="OtherTech.php">Другая техника</a></h3></td>
+      <td colspan="4"><form id="form1" name="form1" method="post">
+        Поиск:
+        <input type="search">
+      </form>
+        <div class="good"><img class="good" src="images/videochip.jpg" alt=""/>GeForce GTX 970 – это высокопроизводительная видеокарта, созданная для серьезных игр.  Основанная на архитектуре NVIDIA® Maxwell™ нового поколения, видеокарта GeForce GTX 970 объединяет в себе самые   продвинутые технологии с первоклассной производительностью для   обеспечения невероятного игрового процесса в виртуальной реальности на   дисплеях HD качества и ультра-высокого разрешения 4K.</div>        
         <p class="news">&nbsp;</p>
       </td>
     </tr>

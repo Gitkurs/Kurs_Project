@@ -23,6 +23,7 @@
       <div class = "log">
         <p align="right">&nbsp;</p>
  <form action="action.php" method="post" name="formInput">
+ 		<p align="center" color="red">Такой логин или email уже зарегестрирован</p>
         <p align="right">
             <label for="name">Имя:</label>
             <input type="text" name="name" id="name" required>

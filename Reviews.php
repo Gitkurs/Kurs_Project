@@ -1,15 +1,11 @@
-<?php
-include "connect.php";
-include "createtable.php";
-?>
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Главная</title>
+<title>Отзывы</title>
 <link href="CSS.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 <label for="textfield">
   <div align="right">Логин:
@@ -38,25 +34,15 @@ include "createtable.php";
       <th width="22.5%" scope="col"><h2><a href="Reviews.php">Отзывы</a></h2></th>
     </tr>
     <tr>
-      <td valign="top">
-      <h3><a href="Notebooks.php">Ноутбуки и ПК</a></h3>
-      <h3><a href="Complect.php">Комплектующие</a></h3>
-      <h3><a href="OtherTech.php">Другая техника</a></h3>
-      </td>
-      <td colspan="5"><div class="news">
-          <div class="news"><img class="news" src="images/BillMogrige.jpg" width="400" height="200" alt=""/>
-          
-       <?php
-      include "connect.php";
-	  $query = mysql_query("SELECT text FROM dbtext WHERE id='3'");
-	  $data = mysql_fetch_array($query);
-	  echo $data['text'];
-      ?>
-          </div>
-          <p class="news">&nbsp;</p>
-        </div>
-        <p class="news">&nbsp;</p>
-      </td>
+      <td valign="top" >
+      <h3><a href="Notebooks.php">Ноутбуки и ПК</a></h3>        
+      <h3><a href="Complect.php">Комплектующие</a></h3>        
+      <h3><a href="OtherTech.php">Другая техника</a></h3></td>
+      <td colspan="4" valign="top">
+      <div class="review">
+        <h5 class="review">Пользователь [login] оставил отзыв!</h5>
+        <p class="review"> Это просто самый офигительный сайт, который я когда-либо видел с своей жизни! Ничего подобного никто никогда не делал и не сделает ещё очень долго. Жаль, что в контактах не указаны адреса создателей, а то мне бы очень хотелось выразить им свою признательность и пожать им горло!</p>
+      </div></td>
     </tr>
   </tbody>
 </table>

@@ -23,17 +23,18 @@
   <div align="right"></div>
 </label>
 <div align="right"></div>
-<table width="100%" border="0">
+<table height="100%" width="100%" border="0">
   <tbody>
     <tr>
-      <th width="8%" scope="col"><a href="index.php"><img src="images/D-roll.jpg" width="111" height="93" alt=""/></a></th>
-      <th width="23%" scope="col"><h2><a href="index.php">Главная</a></h2></th>
-      <th width="23%" scope="col"><h2><a href="About.php">О компании</a></h2></th>
-      <th width="23%" scope="col"><h2><a href="Actions.php">Акции</a></h2></th>
-      <th width="23%" scope="col"><h2><a href="Contacts.php">Контакты</a></h2></th>
+      <th width="10%" scope="col"><a href="index.php"><img src="images/D-roll.jpg" width="111" height="93" alt=""/></a></th>
+      <th width="22.5%" scope="col"><h2><a href="index.php">Главная</a></h2></th>
+      <th width="22.5%" scope="col"><h2><a href="About.php">О компании</a></h2></th>
+      <th width="22.5%" scope="col"><h2><a href="Actions.php">Акции</a></h2></th>
+      <th width="22.5%" scope="col"><h2><a href="Contacts.php">Контакты</a></h2></th>
+      <th width="22.5%" scope="col"><h2><a href="Reviews.php">Отзывы</a></h2></th>
     </tr>
     <tr>
-      <td valign="top" ><h3><a href="#">Ноутбуки и ПК</a></h3>        <h3><a href="#">Комплектующие</a></h3>        <h3><a href="#">Периферия</a></h3></td>
+      <td valign="top" ><h3><a href="Notebooks.php">Ноутбуки и ПК</a></h3>        <h3><a href="Complect.php">Комплектующие</a></h3>        <h3><a href="OtherTech.php">Другая техника</a></h3></td>
       <td colspan="4"><div class="act"><img class="act" src="images/act1.jpg" width="340" height="148" alt=""/>Ну просто наикрутейшая акция</div>
       
       <div class="act"><img class="act" src="images/act2.jpg" width="287" height="176" alt=""/>Не менее офигительная акция</div>
