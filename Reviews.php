@@ -1,3 +1,4 @@
+<?php include "connect.php" ?>
 <!doctype html>
 <html>
 <head>
@@ -7,22 +8,9 @@
 </head>
 
 <body>
-<label for="textfield">
-  <div align="right">Логин:
-    <input type="text" name="textfield" id="textfield">
-    Пароль:
-    <input type="password" name="password" id="password">
-    <input type="button" name="button" id="button" value="Вход">
-    <br>
-  or:
-  <a href="login.php"> <input type="button" name="button2" id="button2" value="Регистрация"> </a>
-  </div>
-</label>
-<div align="right"></div>
-<label for="password">
-  <div align="right"></div>
-</label>
-<div align="right"></div>
+<?php
+include "log_form.php";
+?>
 <table height="100%" width="100%" border="0">
   <tbody>
     <tr>

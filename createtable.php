@@ -10,7 +10,7 @@ header('Content-Type: text/html; charset=utf-8');
 		}
 	}
 	
-mysql_query("CREATE TABLE IF NOT EXISTS clientbase(
+	mysql_query("CREATE TABLE IF NOT EXISTS clientbase(
 			clientbase_id          INT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
 			clientbase_name        VARCHAR(30) NOT NULL,
 			clientbase_surname     VARCHAR(30) NOT NULL,
@@ -23,5 +23,17 @@ mysql_query("CREATE TABLE IF NOT EXISTS clientbase(
 			CONSTRAINT unq_email UNIQUE(clientbase_email),
 			CONSTRAINT unq_login UNIQUE(clientbase_login),
 			CONSTRAINT unq_phonenumber UNIQUE(clientbase_phonenumber)
+			)") or die(mysql_query());
+			
+	mysql_query("CREATE TABLE IF NOT EXISTS employee(
+			employee_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+			employee_name VARCHAR(15) NOT NULL,
+			employee_surname VARCHAR(20) NOT NULL,
+			employee_secondname VARCHAR(20) NOT NULL,
+			employee_birthday DATE NOT NULL,
+			employee_post VARCHAR(30) NOT NULL,
+			employee_startedtowork DATE NOT NULL,
+			employee_salary REAL NOT NULL,
+			employee_phonenumber CHAR(11) NOT NULL
 			)") or die(mysql_query());
 ?>

@@ -1,3 +1,4 @@
+<?php include "connect.php" ?>
 <!doctype html>
 <html>
 <head>
@@ -7,18 +8,9 @@
 </head>
 
 <body>
-<div align="right">Логин:
-  <input type="text" name="textfield" id="textfield">
-  Пароль:
-  <input type="password" name="password" id="password">
-  <input type="button" name="button" id="button" value="Вход">
-  <br>
-  or: <a href="login.php">
-  <input type="button" name="button2" id="button2" value="Регистрация">
-</a></div>
-<div align="right"></div>
-<div align="right"></div>
-<label for="password"> </label>
+<?php
+include "log_form.php";
+?>
 <table height="100%" width="100%" border="0">
   <tbody>
     <tr>
@@ -34,7 +26,6 @@
       <td colspan="4">
       <img class="news" src="images/mhk.jpg" width="200" height="303" alt=""/>
       <?php
-      include "connect.php";
 	  $query = mysql_query("SELECT text FROM dbtext WHERE id='2'");
 	  $data = mysql_fetch_array($query);
 	  echo $data['text'];

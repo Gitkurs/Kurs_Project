@@ -11,6 +11,8 @@ $login = mysql_escape_string($_POST['login']);
 $password = mysql_escape_string($_POST['password']);
 $newpassword = md5($password);
 
+
+
 $query = mysql_query("INSERT INTO clientbase(
 						clientbase_name,
 						clientbase_surname,
@@ -24,8 +26,10 @@ $query = mysql_query("INSERT INTO clientbase(
 
 if($query){
   header('Location:http://test.blackteg.ru/index.php');
+  $_SESSION['regerror'] = 0;
 }else{
-  header('Location:http://test.blackteg.ru/registrationerror.php');
+  header('Location:http://test.blackteg.ru/login.php');
+  $_SESSION['regerror'] = 1;
 }
   exit;
 ?>

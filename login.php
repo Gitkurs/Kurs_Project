@@ -1,3 +1,4 @@
+<?php include "connect.php" ?>
 <!doctype html>
 <html>
 <head>
@@ -23,6 +24,10 @@
       <div class = "log">
         <p align="right">&nbsp;</p>
  <form action="action.php" method="post" name="formInput">
+ <?php 
+ if($_SESSION['regerror']) 
+  	echo "<p align=\"center\" style=\"color:red\">Такой логин или email уже зарегестрирован</p>";
+?>
         <p align="right">
             <label for="name">Имя:</label>
             <input type="text" name="name" id="name" required>
@@ -37,11 +42,11 @@
           </p>
           <p align="right">
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" required>
+            <input type="email" name="email" id="email" required>
           </p>
           <p align="right">
             <label for="phone">Телефон:</label>
-            <input type="text" name="phone" id="phone" required>
+            <input type="tel" pattern="^\d{11}$" name="phone" id="phone" required>
           </p>
            <p align="right">
             <label for="cardstore">Карточка:</label>
