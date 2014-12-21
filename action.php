@@ -11,8 +11,6 @@ $login = mysql_escape_string($_POST['login']);
 $password = mysql_escape_string($_POST['password']);
 $newpassword = md5($password);
 
-
-
 $query = mysql_query("INSERT INTO clientbase(
 						clientbase_name,
 						clientbase_surname,

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="CSS.css" server="fortuna.timeweb.ru//" local="130635991262884715" remote="130635991200000000" />
+<file name="CSS.css" server="fortuna.timeweb.ru//" local="130636767044186891" remote="130636767000000000" />
 <file name="connect.php" server="fortuna.timeweb.ru//" local="130635987484559929" remote="130635987000000000" />
-<file name="About.php" server="fortuna.timeweb.ru//" local="130635987426477553" remote="130635992400000000" />
-<file name="action.php" server="fortuna.timeweb.ru//" local="130635979942157165" remote="130635992400000000" />
-<file name="Actions.php" server="fortuna.timeweb.ru//" local="130635970471034485" remote="130635992400000000" />
-<file name="Contacts.php" server="fortuna.timeweb.ru//" local="130635973199996019" remote="130635992400000000" />
-<file name="createtable.php" server="fortuna.timeweb.ru//" local="130636015234304184" remote="130636015200000000" />
-<file name="index.php" server="fortuna.timeweb.ru//" local="130635972718554884" remote="130635992400000000" />
-<file name="login.php" server="fortuna.timeweb.ru//" local="130636000312238837" remote="130636000200000000" />
-<file name="Notebooks.php" server="fortuna.timeweb.ru//" local="130635986950077058" remote="130635992400000000" />
-<file name="OtherTech.php" server="fortuna.timeweb.ru//" local="130635986991037259" remote="130635992400000000" />
-<file name="Reviews.php" server="fortuna.timeweb.ru//" local="130635987019995936" remote="130635992400000000" />
-<file name="Complect.php" server="fortuna.timeweb.ru//" local="130635986791761954" remote="130635992400000000" />
-<file name="loginin.php" server="fortuna.timeweb.ru//" local="130636021186153559" remote="130636021200000000" />
-<file name="log_form.php" server="fortuna.timeweb.ru//" local="130635993670160400" remote="130635993600000000" />
-<file name="exit.php" server="fortuna.timeweb.ru//" local="130636021427285217" remote="130636021200000000" />
+<file name="About.php" server="fortuna.timeweb.ru//" local="130636778155892488" remote="130636777800000000" />
+<file name="action.php" server="fortuna.timeweb.ru//" local="130636623965880453" remote="130636773000000000" />
+<file name="Actions.php" server="fortuna.timeweb.ru//" local="130636756502683611" remote="130636773000000000" />
+<file name="Contacts.php" server="fortuna.timeweb.ru//" local="130636764956337386" remote="130636773000000000" />
+<file name="createtable.php" server="fortuna.timeweb.ru//" local="130636777475443569" remote="130636777200000000" />
+<file name="index.php" server="fortuna.timeweb.ru//" local="130636777683865490" remote="130636777200000000" />
+<file name="login.php" server="fortuna.timeweb.ru//" local="130636749658251988" remote="130636773000000000" />
+<file name="Notebooks.php" server="fortuna.timeweb.ru//" local="130636764918495221" remote="130636773000000000" />
+<file name="OtherTech.php" server="fortuna.timeweb.ru//" local="130636751910330836" remote="130636773000000000" />
+<file name="Reviews.php" server="fortuna.timeweb.ru//" local="130636766019698279" remote="130636773000000000" />
+<file name="Complect.php" server="fortuna.timeweb.ru//" local="130636764997859761" remote="130636773000000000" />
+<file name="loginin.php" server="fortuna.timeweb.ru//" local="130636021186153559" remote="130636773000000000" />
+<file name="log_form.php" server="fortuna.timeweb.ru//" local="130636445357825328" remote="130636444800000000" />
+<file name="exit.php" server="fortuna.timeweb.ru//" local="130636021427285217" remote="130636773000000000" />
+<file name="addreview.php" server="fortuna.timeweb.ru//" local="130636636779267546" remote="130636773000000000" />
 </dwsync>

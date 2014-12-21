@@ -16,6 +16,6 @@ echo "
 <label for=\"textfield\">
 </form>";
 else
-echo $_SESSION['name']." (<a href=\"exit.php\">Выход</a>)";
+echo "Вы зашли как : ".$_SESSION['name']." (<a href=\"exit.php\">Выход</a>)";
 echo "</div>";
 ?>
